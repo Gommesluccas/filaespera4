@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-const GlobalStyle = createGlobalStyle`
+const Global = createGlobalStyle`
 
   * {
     margin: 0;
@@ -13,16 +13,8 @@ const GlobalStyle = createGlobalStyle`
     height: 100vh;
     display: flex;
     justify-content: center;
-    background-color: #f2f2f2;
+    background-color: rgba(10, 10, 2, 0.2);
   }
-
-  /* Cores personalizadas */
-  :root {
-    --beige: beige;
-    --blue: blue;
-    --red: red;
-  }
-
 `;
 
-export default GlobalStyle;
+export default Global;

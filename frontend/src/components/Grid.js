@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 
 const Table = styled.table`
   width: 100%;
-  background-color: #fff;
+  background-color: beige;
   padding: 20px;
   box-shadow: 0px 0px 5px #ccc;
   border-radius: 5px;
@@ -25,6 +25,7 @@ export const Th = styled.th`
   text-align: start;
   border-bottom: inset;
   padding-bottom: 5px;
+  background-color: rgba(245, 178, 39, 0.37);
 
   @media (max-width: 500px) {
     ${(props) => props.onlyWeb && "display: none"}

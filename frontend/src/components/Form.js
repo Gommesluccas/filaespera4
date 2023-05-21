@@ -8,10 +8,11 @@ const FormContainer = styled.form`
   align-items: flex-end;
   gap: 10px;
   flex-wrap: wrap;
-  background-color: #fff;
+  background-color: beige;
   padding: 20px;
   box-shadow: 0px 0px 5px #ccc;
   border-radius: 5px;
+  border: size, solid 1px #;
 `;
 
 const InputArea = styled.div`
@@ -22,9 +23,10 @@ const InputArea = styled.div`
 const Input = styled.input`
   width: 120px;
   padding: 0 10px;
-  border: 1px solid #bbb;
+  border: size, 1px solid #bbb;
   border-radius: 5px;
   height: 40px;
+  background-color: rgba(245, 178, 39, 0.37);
 `;
 
 const Label = styled.label``;
@@ -33,9 +35,9 @@ const Button = styled.button`
   padding: 10px;
   cursor: pointer;
   border-radius: 5px;
-  border: none;
-  background-color: #2c73d2;
-  color: white;
+  border: size, 1px, solid #;
+  background-color: rgba(245, 178, 39, 0.37);
+  color: black;
   height: 42px;
 `;
 
